@@ -1,0 +1,23 @@
+body{
+    margin:auto;
+    width: 600px;
+}
+.image{
+    width: 600px;
+    height: 400px;
+    background-image: url(1.jpg),url(2.jpg),url(3.jpg),url(4.jpg),url(5.png),url(6.jpg);
+    background-repeat:no-repeat ;
+    background-position: left top, center top, right top, left bottom, center bottom, right bottom ;
+    background-size: 200px 200px, 200px 200px, 200px 200px , 200px 200px, 200px 200px, 200px 200px;
+    margin-top: 100px;
+    position: relative;
+}
+img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 1px solid rgb(138, 104, 104);
+    border-radius: 50%;
+    left: 270px;
+    top: 160px;
+}
